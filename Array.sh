@@ -20,17 +20,17 @@ for((i=0; i<$n-1; i++))
 do
 if [ ${arr[$i]} -gt ${arr[$i + 1]} ]
 then
-echo " ${arr[i]} is b1 t1 ${arr[i+1]}."
+echo " ${arr[i]} is bigger then ${arr[i+1]}."
 temp=${arr[i]}
 if [ $temp -gt ${arr[$i]} ]
 then
-echo " $temp is b2 t2 ${arr[$i]}"
+echo " $temp is bigger than ${arr[$i]}"
 else
-echo " ${arr[$i]} is bigger3 than3 $temp"
+echo " ${arr[$i]} is bigger than $temp"
 fi
 else
 temp=${arr[i+1]}
-echo " $temp is bigger4 than4 ${arr[i]}."
+echo " $temp is bigger than ${arr[i]}."
 fi
 done
 echo "Biggest Element is:" $temp
