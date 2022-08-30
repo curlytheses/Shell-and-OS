@@ -8,8 +8,7 @@ read arr[$i]
 ((i++))
 done
 i=0
-echo "Enter the element to search:"
-read s
+read -p "Enter the element to search:" s
 temp=${arr[$i]}
 for ((i=1 ; i<n ; i++))
 do
