@@ -7,10 +7,9 @@ do
 read arr[$i]
 ((i++))
 done
-i=0
 read -p "Enter the element to search:" s
 temp=${arr[$i]}
-for ((i=1 ; i<n ; i++))
+for ((i=0 ; i<n ; i++))
 do
 while [ ${arr[$i]} -eq $s ]
 do
