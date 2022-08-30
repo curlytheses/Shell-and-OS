@@ -13,7 +13,7 @@ for ((i=0 ; i<n ; i++))
 do
 while [ ${arr[$i]} -eq $s ]
 do
-echo "Element Found !!"
+echo "Element Found!!"
 break
 done
 done
