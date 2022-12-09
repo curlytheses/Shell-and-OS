@@ -1,3 +1,9 @@
+// Write a program in C to demonstrate First Come First Serve (FCFS) scheduling algorithm and print the waiting times for each process and also print the average waiting time.
+
+
+//Submitted By Roll : 302
+//Source Code
+
 #include<stdio.h>
 
 int main(){
@@ -59,3 +65,42 @@ int main(){
 	
 	return 0;
 }
+
+////////////////////////OUTPUT//////////////////////
+
+
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS> gcc fcfs.c
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS> ./a.exe
+// Enter number of processes:       5
+// Enter arrival time and burst time for each process
+
+// Arrival time of process[1]      3
+// Burst time of process[1]        5
+
+// Arrival time of process[2]      3
+// Burst time of process[2]        6
+
+// Arrival time of process[3]      4
+// Burst time of process[3]        6
+
+// Arrival time of process[4]      5
+// Burst time of process[4]        7
+
+// Arrival time of process[5]      4
+// Burst time of process[5]        7
+
+// Solution:
+
+// P#       AT      BT      CT      TAT     WT
+
+// P1       3       5       5       2       -3
+// P2       3       6       11      8       2
+// P3       4       6       17      13      7
+// P4       5       7       24      19      12
+// P5       4       7       31      27      20
+
+
+// Average Turnaround Time = 13.800000
+// Average WT = 7.600000
+
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS>
