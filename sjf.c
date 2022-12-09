@@ -1,3 +1,8 @@
+//  Write a program in C to demonstrate Shortest Job First (SJF) scheduling algorithm and print the waiting times for each process and also print the average waiting time.
+
+//Submitted By Roll No: - 302
+//Source Code
+
 #include <stdio.h>
 int main()
 {
@@ -49,3 +54,27 @@ int main()
     printf("\n\nAverage Waiting Time=%f", avg_wt);
     printf("\nAverage Turnaround Time=%f\n", avg_tat);
 }
+
+
+/////////////////////OUTPUT////////////////
+
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS> ./a.exe  
+// Enter number of process:5
+
+// Enter Burst Time:
+// p1:5
+// p2:6
+// p3:7
+// p4:4
+// p5:3
+
+// Process     Burst Time          Waiting Time    Turnaround Time
+// p5                3                 0                   3      
+// p4                4                 3                   7      
+// p1                5                 7                   12     
+// p2                6                 12                  18     
+// p3                7                 18                  25     
+
+// Average Waiting Time=8.000000
+// Average Turnaround Time=13.000000
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS>

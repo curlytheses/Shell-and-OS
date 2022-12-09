@@ -1,3 +1,8 @@
+# Write a shell program to perform linear search.
+
+#Submitted By Roll No 302
+#Source Code
+
 clear
 read -p "Enter the number of elements:" n
 echo "Enter the elements:"
@@ -17,3 +22,17 @@ echo "Element Found!!"
 break
 done
 done
+
+###############OUTPUT##############
+
+# Enter the number of elements:6
+# Enter the elements:
+# 5
+# 8
+# 3
+# 1
+# 2
+# 9
+# Enter the element to search:5
+# Element Found!!
+# krishnendu@krishnendu-OptiPlex-3046:~/Desktop/Shell$ 

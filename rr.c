@@ -63,5 +63,48 @@ void main()
     avg_tat = tat * 1.0 / NOP;
     printf("\n Average Turn Around Time: \t%f", avg_wt);
     printf("\n Average Waiting Time: \t%f", avg_tat);
-    getch();
+    getchar();
 }
+
+
+////////////////////OUTPUT//////////////
+
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS> gcc rr.c
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS> ./a.exe 
+//  Total number of process in the system: 5
+
+//  Enter the Arrival and Burst time of the Process[1]
+//  Arrival time is:       4
+ 
+// Burst time is:  6
+
+//  Enter the Arrival and Burst time of the Process[2]
+//  Arrival time is:       3
+ 
+// Burst time is:  5
+
+//  Enter the Arrival and Burst time of the Process[3]
+//  Arrival time is:       4
+ 
+// Burst time is:  7
+
+//  Enter the Arrival and Burst time of the Process[4]
+//  Arrival time is:       2
+ 
+// Burst time is:  5
+
+//  Enter the Arrival and Burst time of the Process[5]
+//  Arrival time is:       6
+ 
+// Burst time is:  8
+// Enter the Time Quantum for the process:         4
+
+//  Process No              Burst Time              TAT             Waiting Time
+// Process No[1]            6                       18                      12
+// Process No[2]            5                       20                      15
+// Process No[3]            7                       22                      15
+// Process No[4]            5                       25                      20
+// Process No[5]            8                       25                      17
+//  Average Turn Around Time:      15.800000
+//  Average Waiting Time:  22.000000
+// PS C:\Users\Krishnendu Das\OneDrive\Desktop\Shell and OS>

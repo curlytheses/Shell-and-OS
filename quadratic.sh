@@ -1,3 +1,8 @@
+# Write a shell program to print the roots of a quadratic equation.
+
+#Submitted By Roll No :- 302
+#Source Code
+
 #!bin/bash
 echo Enter the coefficient of x^2:
 read a
@@ -33,3 +38,17 @@ then
 else
     echo Coefficient of x^2 can not be 0.
 fi
+
+
+##############OUTPUT#############
+
+# krishnendu@krishnendu-OptiPlex-3046:~/Desktop/Shell$ bash quadratic.sh
+# Enter the coefficient of x^2:
+# 4
+# Enter the coefficient of x:
+# 6
+# Enter the constant term:
+# 2
+# The first root is: -.50
+# The second root is: -1.00
+# krishnendu@krishnendu-OptiPlex-3046:~/Desktop/Shell$
