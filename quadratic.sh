@@ -1,3 +1,4 @@
+#!bin/bash
 echo Enter the coefficient of x^2:
 read a
 echo Enter the coefficient of x:

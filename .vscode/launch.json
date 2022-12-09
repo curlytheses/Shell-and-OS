@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Krishnendu as/OneDrive/Desktop/Shell and OS",
-      "program": "c:/Users/Krishnendu as/OneDrive/Desktop/Shell and OS/build/Debug/outDebug",
+      "cwd": "c:/Users/Krishnendu Das/OneDrive/Desktop/Shell and OS",
+      "program": "c:/Users/Krishnendu Das/OneDrive/Desktop/Shell and OS/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
