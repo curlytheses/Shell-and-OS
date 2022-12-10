@@ -1,13 +1,13 @@
 # Write a shell program to reverse an array.
-		
-#Submitted By Roll No 302
+
+#Submitted By Roll No:-302
+
 #Source Code
 
 #!/bin/bash
-clear
-
 declare -a array 
-read -p "Enter the array list: " n
+read -p "Enter the length of array list: " n
+echo "Enter $n elements: "
 for (( i=0;i<$n;i++))
 do
     read elements
@@ -25,14 +25,17 @@ do
     (( min++, max-- ))
 done
 
-echo "${array[@]}"
+echo "Reverce Array is :${array[@]}"
 
-############OUTPUT###########
+##############OUTPUT###############
 
-# Enter the array list: 5
-# 3
+# krishnendu@krishnendu-OptiPlex-3046:~/Desktop/Shell$ bash revarray.sh
+# Enter the length of array list: 5
+# Enter 5 elements: 
+# 4
 # 1
-# 2
-# 6
+# 3
+# 7
 # 8
-# 8 6 2 1 3
+# Reverce Array is :8 7 3 1 4
+# krishnendu@krishnendu-OptiPlex-3046:~/Desktop/Shell$ 
