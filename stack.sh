@@ -100,20 +100,6 @@ done
 # 1.Push
 # 2.Pop
 # 3.Exit
-# Enter Your Choice : 1
-# Enter the element : 7
-# Stack : 2 3 4 5 6 7
-
-# 1.Push
-# 2.Pop
-# 3.Exit
-# Enter Your Choice : 2
-# 7 Popped
-# Stack : 2 3 4 5 6
-
-# 1.Push
-# 2.Pop
-# 3.Exit
 # Enter Your Choice : 2
 # 6 Popped
 # Stack : 2 3 4 5
