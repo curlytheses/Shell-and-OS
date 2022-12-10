@@ -8,6 +8,8 @@
 declare -a stack
 top=-1
 max=$1
+echo -e "Stack Size : $max"
+((max=max-1))
 push(){
 	if [ $top -eq $max ]
 	then
@@ -33,7 +35,6 @@ pop(){
 		exit 1
 	fi
 }
-echo -e "Stack Size : $max"
 while [ 1 -eq 1 ]
 do
 	echo -e "\n1.Push\n2.Pop\n3.Exit"
