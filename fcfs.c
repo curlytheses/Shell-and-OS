@@ -20,10 +20,10 @@ int main(){
 	for(int i=0;i<n;i++)
 	{
 
-		printf("Arrival time of process[%d]	",i+1);
+		printf("Arrival time of p[%d]	",i+1);
 		scanf("%d",&at[i]);
 		
-		printf("Burst time of process[%d]	",i+1);
+		printf("Burst time of p[%d]	",i+1);
 		scanf("%d",&bt[i]);
 		
 		printf("\n");
