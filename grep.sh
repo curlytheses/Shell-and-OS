@@ -5,16 +5,18 @@
 #Source Code
 
 #!/bin/bash
-echo "enter file name"
+echo "Enter File Name"
 read file
-echo "enter word"
+echo "Enter Output File Name"
+read file1
+echo "Enter Word"
 read word
-echo "file before removing" $word:
+echo "File Before Removing" $word:
 cat $file
-grep -v -i $word $file > test.txt
+grep -v -i $word $file > $file1
 mv test.txt $file
-echo "file after removing" $word:
-cat $file
+echo "File After Removing" $word:
+cat $file1
 
 ####################OUTPUT#################
 
