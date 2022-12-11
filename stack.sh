@@ -9,7 +9,7 @@ declare -a stack
 top=-1
 max=$1
 echo -e "Stack Size : $max"
-((max=max-1))
+((max=max-2))
 push(){
 	if [ $top -eq $max ]
 	then
