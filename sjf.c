@@ -43,7 +43,7 @@ int main()
     }
     avg_wt = (float)total / n;
     total = 0;
-    printf("\nProcess\t    Burst Time    \tWaiting Time\tTurnaround Time");
+    printf("\nP\t    Burst Time    \tWaiting Time\tTurnaround Time");
     for (i = 0; i < n; i++)
     {
         tat[i] = bt[i] + wt[i];

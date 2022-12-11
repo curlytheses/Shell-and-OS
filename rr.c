@@ -15,7 +15,7 @@ void main()
     y = NOP; 
     for (i = 0; i < NOP; i++)
     {
-        printf("\n Enter the Arrival and Burst time of the Process[%d]\n", i + 1);
+        printf("\n Enter the Arrival and Burst time of the P[%d]\n", i + 1);
         printf(" Arrival time is: \t"); 
         scanf("%d", &at[i]);
         printf(" \nBurst time is: \t"); 
@@ -41,7 +41,7 @@ void main()
         if (temp[i] == 0 && count == 1)
         {
             y--; 
-            printf("\nProcess No[%d] \t\t %d\t\t %d\t\t %d", i + 1, bt[i], sum - at[i], sum - at[i] - bt[i]);
+            printf("\nP[%d] \t\t %d\t\t %d\t\t %d", i + 1, bt[i], sum - at[i], sum - at[i] - bt[i]);
             wt = wt + sum - at[i] - bt[i];
             tat = tat + sum - at[i];
             count = 0;
