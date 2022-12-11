@@ -1,7 +1,7 @@
-echo "enter the range: $n";
+echo "enter the range: "$1
 echo "the prime no are:" 
 m=2
-while [ $m -le $n ] 
+while [ $m -le $1 ] 
 do
 i=2 flag=0
 while [ $i -le `expr $m / 2` ] 
